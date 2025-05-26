@@ -1,57 +1,67 @@
 * {
-    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
 
 body {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    /* display: flex;
+    flex-direction: column; */
 }
 
-.hero-header {
+/* New */
+.hero {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 10px 150px;
+    min-height: 100vh;
+    padding: 0 8rem;
+    /* gap: 8rem; */
 }
 
-.header {
+.hero-header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    /* border: solid 5px red; */
+}
+
+.logo {
+    font-size: 1.5rem;
     color: #F9FAF8;
-    font-size: 24px;
     font-weight: 700;
 }
 
-.header ul {
+.nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-    gap: 25px;
-    margin-left: auto;
+    gap: 1.5rem;
 }
 
-.header ul a {
+.nav ul a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     color: #E5E7EB;
 }
 
-.hero {
+.hero-body {
     display: flex;
-    gap: 55px;
-    padding: 95px 0;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
 }
 
 .hero-content {
     display: flex;
     flex-direction: column;
     flex: 1;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: solid 5px red; */
 }
 
 .hero-content button {
@@ -82,6 +92,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 450px;
+    width: 450px;
+    height: 250px;
     flex-shrink: 0;
 }
