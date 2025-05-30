@@ -147,26 +147,40 @@ body {
     gap: 2.75rem;
 }
 
-.content-two {
+/* Sets the styling for the quote section */
+.quote-section {
     background-color: #E5E7EB;
     min-height: 30rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    padding: 0 13rem;
+    /* padding: 0 13rem; */
 }
 
+.content-two {
+    /* padding: 0 13rem; */
+    display: flex;
+    flex-direction: column;
+    max-width: 49rem;
+    border: solid 3px green;
+}
+
+/* Sets the styling for the quote text */
 .quote {
     font-size: 2.25rem;
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
-    max-width: 47rem;
+    border: solid 3px red;
+    align-self: center;
+    flex: 1;
 }
 
+/* Sets the styling for the person name */
 .quote-name {
     font-weight: 700;
     align-self: flex-end;
     font-size: 1.25rem;
+    border: 3px solid blue;
 }
