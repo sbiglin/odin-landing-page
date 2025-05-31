@@ -154,7 +154,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     /* padding: 0 13rem; */
 }
 
@@ -163,7 +163,6 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 49rem;
-    border: solid 3px green;
 }
 
 /* Sets the styling for the quote text */
@@ -172,7 +171,6 @@ body {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
-    border: solid 3px red;
     align-self: center;
     flex: 1;
 }
@@ -182,5 +180,23 @@ body {
     font-weight: 700;
     align-self: flex-end;
     font-size: 1.25rem;
-    border: 3px solid blue;
+}
+
+.sign-up-section {
+    min-height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-box {
+    background-color: #3882F6;
+}
+
+.sign-up-box h3 {
+    color: #F9FAF8;
+}
+
+.sign-up-box p {
+    color: #E5E7EB;
 }
