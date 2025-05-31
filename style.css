@@ -69,7 +69,7 @@ body {
 }
 
 /* Styling for the Sign Up button in hero */
-.hero-content button {
+#top-button {
     max-width: fit-content;
     padding: 10px 30px;
     border-radius: 10px;
