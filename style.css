@@ -180,8 +180,10 @@ body {
     font-weight: 700;
     align-self: flex-end;
     font-size: 1.25rem;
+    padding-right: 2rem;
 }
 
+/* Sets the size of the section containing the sign-up banner */
 .sign-up-section {
     min-height: 20rem;
     display: flex;
@@ -189,14 +191,33 @@ body {
     align-items: center;
 }
 
+/* Sets styling for the sign-up banner */
 .sign-up-box {
     background-color: #3882F6;
+    border-radius: 0.6rem;
+    padding: 3rem 6.5rem;
+    display: flex;
+    align-items: center;
+    gap: 9rem;
 }
 
+/* Sets font colour for header in sign-up banner */
 .sign-up-box h3 {
     color: #F9FAF8;
 }
 
+/* Sets font colour for small text in sign-up banner */
 .sign-up-box p {
     color: #E5E7EB;
+}
+
+/* Defines styling for button in sign-up banner */
+#sign-up-button {
+    background-color: #3882F6;
+    border: #F9FAF8 2px solid;
+    border-radius: 5px;
+    padding: 8px 1.85rem;
+    color: #F9FAF8;
+    font-size: 0.85rem;
+    font-weight: 600;
 }
